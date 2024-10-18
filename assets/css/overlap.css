@@ -13,8 +13,7 @@ body {
   width: 330px;
   height: 290px;
   margin: 155px 130px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-inline : auto;
 }
 
 .circles-container span {
@@ -73,11 +72,9 @@ body {
 
 .nesting-circles-container {
   position: relative;
-  width: 530px;
+  width: 330px;
   height: 290px;
-  margin: 255px 100px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-inline : auto;
 }
 
 .nesting-circles-container span {
@@ -89,6 +86,7 @@ body {
   border-radius: 50%;
   text-align: center;
   opacity: 0.5;
+  text-align: center;
 }
 
 .html-nest {
